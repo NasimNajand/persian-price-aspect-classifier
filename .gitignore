@@ -1,0 +1,17 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+qenv/
+venv/
+.env/
+
+# Large datasets and serialized model artifacts
+data/*.csv
+models/*.pkl
+result.zip
+
+# OS metadata
+.DS_Store
