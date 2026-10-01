@@ -8,7 +8,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import LinearSVC
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import classification_report, confusion_matrix
-from text_processor import PersianTextProcessor
+from src.text_processor import PersianTextProcessor
 
 MODEL_PATH = "../models/price_mention_model.pkl"
 DATA_PATH = "../data/train.csv"

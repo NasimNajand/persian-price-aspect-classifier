@@ -3,7 +3,7 @@ import argparse
 import joblib
 import pandas as pd
 from pandarallel import pandarallel
-from text_processor import PersianTextProcessor
+from src.text_processor import PersianTextProcessor
 
 DEFAULT_MODEL_PATH = "../models/price_mention_model.pkl"
 DEFAULT_INPUT_PATH = "data/test.csv"
